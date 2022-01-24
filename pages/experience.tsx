@@ -1,6 +1,7 @@
 import Content from "../components/content";
 import Image from "next/image";
 import { Typography, Box } from "@mui/material";
+import { prefix } from '../utils/prefix';
 
 function GetContent() {
   return (
@@ -10,7 +11,7 @@ function GetContent() {
       </Typography>
       <Image
         alt="shocked"
-        src="/images/barbie-shocked.gif"
+        src={`${prefix}/images/barbie-shocked.gif`}
         layout="fixed"
         width={250}
         height={250}
