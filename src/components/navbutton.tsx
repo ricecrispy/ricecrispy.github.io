@@ -1,16 +1,17 @@
-import Link from 'next/link';
-import Button from '@mui/material/Button';
+import Link from "next/link";
+import Button from "@mui/material/Button";
 
 type NavButtonProps = {
-    route: string,
-    navigationText: string,
+  route: string;
+  navigationText: string;
+};
+
+function NavButton({ route, navigationText }: NavButtonProps) {
+  return (
+    <Link href={route} passHref>
+      <Button variant="outlined" color="inherit">{navigationText}</Button>
+    </Link>
+  );
 }
 
-export default function NavButton({ route, navigationText }: NavButtonProps) {
-    return (
-    <Link href={route} passHref>
-    <Button variant="outlined">
-      {navigationText}
-    </Button>
-  </Link>)
-}
+export { NavButton, NavButtonProps };

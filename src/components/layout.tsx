@@ -18,7 +18,7 @@ export default function Layout({ children }: LayoutProps) {
         justifyContent: "center",
       }}
     >
-      <Grid container spacing={2}>
+      <Grid container spacing={10}>
         <Grid item xs={12}>
           <Navbar />
         </Grid>
