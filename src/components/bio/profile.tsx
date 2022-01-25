@@ -1,4 +1,5 @@
 import { Box, Typography } from "@mui/material";
+import PasswordField from "./passwordfield";
 
 export default function Profile() {
   return (
@@ -12,9 +13,10 @@ export default function Profile() {
       <Typography variant="subtitle1" gutterBottom component="div">
         Based in Maryland
       </Typography>
-      <Typography variant="body1" gutterBottom component="div">
+      <Typography variant="body1" gutterBottom component="div" sx={{ mt: '10%'}}>
         COMING SOON...
       </Typography>
+      <PasswordField />
     </Box>
   );
 }
