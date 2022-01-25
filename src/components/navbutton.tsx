@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 
 export type NavButtonProps = {
@@ -8,8 +8,8 @@ export type NavButtonProps = {
 
 export function NavButton({ route, navigationText }: NavButtonProps) {
   return (
-    <Link href={route} passHref>
-      <Button variant="outlined" color="inherit">{navigationText}</Button>
-    </Link>
+    <Button variant="outlined" color="inherit" component={Link} to={route}>
+      {navigationText}
+    </Button>
   );
 }

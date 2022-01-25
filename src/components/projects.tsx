@@ -1,6 +1,5 @@
 import Content from "../components/content";
 import {Box, Typography, Link } from "@mui/material"
-import Image from 'next/image';
 
 function GetContent() {
   return (

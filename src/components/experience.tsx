@@ -1,4 +1,4 @@
-import Content from "../components/content";
+import Content from "./content";
 import { Typography, Box } from "@mui/material";
 
 function GetContent() {
@@ -7,13 +7,11 @@ function GetContent() {
       <Typography variant="h1" gutterBottom component="div">
         COMING SOON...
       </Typography>
-      {/* <Image
+      <img
         alt="shocked"
-        src={`${prefix}/images/barbie-shocked.gif`}
-        layout="fixed"
-        width={250}
-        height={250}
-      /> */}
+        src="https://c.tenor.com/wXyvmX1gAy0AAAAC/omg-barbie.gif"
+        loading="lazy"
+      />
     </Box>
   );
 }

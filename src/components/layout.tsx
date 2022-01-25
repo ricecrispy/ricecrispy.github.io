@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Box, Grid } from "@mui/material";
-import Profile from "./profile";
+// import Profile from "./profile";
 import Navbar from "./navbar";
 
 type LayoutProps = {
