@@ -10,7 +10,8 @@ function GetContent() {
       </Typography>
       <Typography variant="h2" gutterBottom component="div">
         <Link href="https://github.com/ricecrispy" color="inherit" target="_blank">
-          <Image alt="gh-logo" src="/images/gh-logo.png" layout="fixed" width={100} height={100}/>
+          {/* <Image alt="gh-logo" src="/images/gh-logo.png" layout="fixed" width={100} height={100}/> */}
+          G I T H U B
         </Link>
       </Typography>
     </Box>
