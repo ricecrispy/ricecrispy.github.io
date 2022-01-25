@@ -1,10 +1,9 @@
-import React from 'react';
-import { Outlet, Routes, Route } from 'react-router-dom'
+import { Outlet, Routes, Route } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
-import Navbar from "./components/navbar";
-import Bio from "./components/bio";
-import Experience from "./components/experience";
-import Projects from "./components/projects";
+import Navbar from "./components/common/navbar";
+import Bio from "./components/bio/bio";
+import Experience from "./components/experience/experience";
+import Projects from "./components/projects/projects";
 
 function App() {
   return (
@@ -28,10 +27,10 @@ function App() {
             }}
           >
             <Routes>
-              <Route path="/" element={<Bio /> } />
-              <Route path="bio" element={<Bio /> } />
-              <Route path="experience" element={<Experience /> } />
-              <Route path="projects" element={<Projects /> } />
+              <Route path="/" element={<Bio />} />
+              <Route path="/bio" element={<Bio />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
             <Outlet />
           </Box>

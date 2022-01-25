@@ -1,4 +1,4 @@
-import Content from "./content";
+import Content from "../common/content";
 import { Typography, Box } from "@mui/material";
 
 function GetContent() {

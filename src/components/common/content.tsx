@@ -1,11 +1,11 @@
 import { Box, Divider, Chip, Grid } from "@mui/material";
 
 type ContentProps = {
-    ChipLabel: string,
-    Content: JSX.Element
-}
+  ChipLabel: string;
+  Content: JSX.Element;
+};
 
-export default function Content({ChipLabel, Content}: ContentProps) {
+export default function Content({ ChipLabel, Content }: ContentProps) {
   return (
     <Box
       sx={{
