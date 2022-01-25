@@ -11,6 +11,10 @@ This repo contains the source code for my personal github page.
 - [react router](https://reactrouter.com/)
 - [MUI](https://mui.com/)
 
+## gh-pages Branch
+
+the `gh-pages` branch contains the production build of the project. The Github action runs automatically when changes are merged into the `main` branch.
+
 ## Experience
 
 I started this project to learn more about React. It was a fun and fulfilling experience as I did not have a ton of front-end development experience.
